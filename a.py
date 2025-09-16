@@ -1,3 +1,2 @@
-x = "John"
-# is the same as
-x = 'John'
+a = "Hello, World!"
+print(a.split(",")) # returns ['Hello', ' World!']
