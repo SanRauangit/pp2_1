@@ -1,2 +1,5 @@
-a = "Hello, World!"
-print(a.split(",")) # returns ['Hello', ' World!']
+word= input()
+if word[:]==word[::-1]:
+    print("True")
+else:
+    print("False")
