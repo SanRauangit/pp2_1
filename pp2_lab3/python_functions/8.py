@@ -6,3 +6,4 @@ def spy_game(nums):
 
 print(spy_game([1,3,0,1,4]))
 print(spy_game([1,0,9,3,0,0,7,2]))
+print(spy_game([1,0,9,3,0,6,7,2]))

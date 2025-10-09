@@ -21,11 +21,13 @@ if(n==1):
     def is_high_rated(movie):
         return movie["imdb"] > 5.5
     n=int(input())
-    print(is_high_rated(n))
+    test=movies[n]
+    print(is_high_rated(test))
 elif(n==2):
     # 2
     def get_high_rated_movies(movie_list):
         print( [movie for movie in movie_list if movie["imdb"] > 5.5])
+    get_high_rated_movies(movies)
 elif(n==3):
     # 3
     def get_movies_by_category(movie_list,category):
@@ -78,7 +80,9 @@ elif(n==5):
     def average_imdb_by_category(movie_list,category):
         category_movies=get_movies_by_category(movie_list,category)
         return average_imdb_score(category_movies)
+    def get_movies_by_category(movie_list,category):
+        return [movie for movie in movie_list if movie["category"].lower()==category.lower()]
     n=input("Enter category: ")
-    print(average_imdb_by_category(n))
+    print(average_imdb_by_category(movies,n))
 else:
     print("Please enter a valid number")
