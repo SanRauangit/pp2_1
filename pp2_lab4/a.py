@@ -1,18 +1,19 @@
 import json
-
+import os
 def parse_interface_data():
-    """Parse JSON data and display interface status in formatted table"""
+    filename = 'sample-data.json'
     
-    try:
-        with open('sample-data.json', 'r') as file:
-            data = json.load(file)
-    except FileNotFoundError:
+    if not os.path.exists(filename):
         print("Error: sample-data.json file not found!")
         return
-    except json.JSONDecodeError:
-        print("Error: Invalid JSON format!")
-        return
     
+    with open(filename, 'r') as file:
+        data = file.read()
+    
+    if len(data.strip()) == 0:
+        print("Error: File is empty!")
+        return
+    data = json.loads(data)
     interfaces = data.get('imdata', [])
     
     print("Interface Status")
