@@ -1,0 +1,8 @@
+Hello, world. How are you?
+This is a test. With, multiple, punctuations.
+NoPunctuationHere
+Multiple   spaces,, and...dots,,,
+Simple case: a,b.c d
+File.name.txt, document.pdf
+Price: $100,000.00
+John Doe, Jr. Ph.D.

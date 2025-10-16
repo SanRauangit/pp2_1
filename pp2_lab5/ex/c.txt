@@ -1,0 +1,3 @@
+ABCDE AbCde AbcDe abcde abcde_
+ab_cde a_bcde a_bcdE _abcde Abcde abcDe
+HelloWorld PythonSnake
