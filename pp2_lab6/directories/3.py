@@ -6,5 +6,5 @@ def exists(p):
         print(f"Filename: {os.path.basename(p)}")
     else:
         print("Path does not exists")
-p=input("Enter path: ").strip()
+p=input("Enter path: ")
 exists(p)
