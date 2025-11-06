@@ -17,7 +17,10 @@ while not done:
     pressed=pygame.key.get_pressed()
     if pressed[pygame.K_UP] and y-radius > 0:y-=20
     if pressed[pygame.K_DOWN] and y+radius < 820:y+=20
-    if pressed[pygame.K_RIGHT] and x+radius < 1080:x+=20
+    if pressed[pygame.K_RIGHT] and x+radius <= 1200:
+        x+=20
+        if x+radius>=1080:
+            x-=1080
     if pressed[pygame.K_LEFT] and x-radius > 0 :x-=20
 
     screen.fill((255,255,255))
