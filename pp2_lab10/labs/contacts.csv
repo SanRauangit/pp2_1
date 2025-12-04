@@ -1,11 +1,4 @@
-first_name,last_name,phone,email
-James,Smith,+1-202-555-0101,james.smith@email.com
-Maria,Garcia,+1-202-555-0102,maria.garcia@email.com
-Robert,Johnson,+1-202-555-0103,robert.johnson@email.com
-Sarah,Williams,+1-202-555-0104,sarah.williams@email.com
-Michael,Brown,+1-202-555-0105,michael.brown@email.com
-Lisa,Jones,+1-202-555-0106,lisa.jones@email.com
-David,Miller,+1-202-555-0107,david.miller@email.com
-Jennifer,Davis,+1-202-555-0108,jennifer.davis@email.com
-Thomas,Wilson,+1-202-555-0109,thomas.wilson@email.com
-Susan,Moore,+1-202-555-0110,susan.moore@email.com
+first_name,phone
+Steve,+1-202-555-0121
+Garry,+1-202-555-0120
+Lily,+1-202-555-0112
